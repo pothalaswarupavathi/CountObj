@@ -1,0 +1,18 @@
+import java.util.*;
+class CountObj {
+    
+    private static int count=0;
+    
+    public CountObj(){
+        count++;
+    }
+    
+    public static void main(String[] args) {
+        CountObj hd=new CountObj();
+        CountObj hd1=new CountObj();
+        CountObj hd2=new CountObj();
+        
+        
+        System.out.println("Number of objects  "+ count);
+    }
+}
